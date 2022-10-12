@@ -21,7 +21,7 @@ namespace sept_23_assignments
             try
             {
                 // Creating Connection  
-                con = new SqlConnection("data source=.; database=kannan; integrated security=SSPI");
+                con = new SqlConnection("data source=.; database=Raja; integrated security=SSPI");
                 // writing sql query  
                 SqlCommand cm = new SqlCommand("select * from product where unitprice='" + obj.Price + "'", con);
                 // Opening Connection  
